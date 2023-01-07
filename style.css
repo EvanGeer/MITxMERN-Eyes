@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #052f40;
+}
+
+.head {
+  background-color: green;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+  width: 400px;
+  height: 220px;
+  text-align: center;
+  border-radius: 50%;
+}
+.smile {
+  background-color: transparent;
+  position: absolute;
+  border-bottom:#000;
+  border-style: solid;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 7px;
+  top: 30%;
+  left: 50%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+  width: 300px;
+  height: 120px;
+  text-align: center;
+  border-radius: 50%;
+}
+.smile:hover {
+  border-bottom-width: 50px;
+  top: 20%;
+}
+
+.eyesocket {
+  width: 120px;
+  height: 80px;
+  background: #fff;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+.eyeball {
+  width: 60px;
+  height: 60px;
+  background: #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.body {
+  background-color: darkgreen;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+  width: 500px;
+  height: 600px;
+  text-align: center;
+  border-radius: 50%;
+}
